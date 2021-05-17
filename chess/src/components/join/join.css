@@ -1,0 +1,30 @@
+#join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#code{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color : white;
+    text-align: center;
+}
+
+#joinbtn{
+    padding: 0.5rem 1.8rem;
+    font-size: 1.5rem;
+}
+
+#roomId{
+    margin-bottom: 1em;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(197, 153, 8);
+    width: 300px;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    color: white;
+    padding: 1rem;
+}

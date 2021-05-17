@@ -1,0 +1,8 @@
+#coj{
+    transform: scale(1.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1em;
+    align-items: center;
+}

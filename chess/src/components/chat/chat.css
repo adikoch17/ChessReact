@@ -1,0 +1,49 @@
+#chatComp{
+    height: 100%;
+    width: 25%;
+    min-width:300px ;
+    
+}
+#messagesCont{
+    height: 70%;
+    max-height: 500px;
+    border: 1px solid black;
+    padding: 2rem;
+    border:2px solid rgb(197, 153, 8);
+    margin-bottom: 1rem;
+    color: white;
+}
+
+#form{
+    width: 100%;
+    display: flex;
+}
+#form>form{
+    width: 100%;
+    display: flex;
+    height: 3rem;
+}
+
+#inpField{
+    width:100%;
+    margin: 0.2rem;
+    margin-left: 0;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: white;
+    background-color: transparent;
+    border:2px solid rgb(197, 153, 8);
+    outline: none;
+    padding: 1rem;
+}
+
+#headingChat{
+    color: rgb(197, 153, 8);
+}
+
+#messages{
+    height: 85%;
+    max-height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

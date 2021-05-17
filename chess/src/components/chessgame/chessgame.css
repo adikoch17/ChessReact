@@ -1,0 +1,31 @@
+#winnerModal{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#winnerCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    height: 400px;
+    width: 20%;
+    background-color: blanchedalmond;
+}
+
+#winnerCont>h1{
+    text-align: center;
+}
+
+#newGame{
+    width: fit-content;
+}
